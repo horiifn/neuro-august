@@ -115,9 +115,9 @@ def get_update_info():
     update_info = check_for_updates()
     
     if update_info.get('available'):
-        # Ищем .exe файл в assets
+        # Ищем .zip или .exe файл в assets
         for asset in update_info.get('assets', []):
-            if asset['name'].endswith('.exe'):
+            if asset['name'].endswith('.zip') or asset['name'].endswith('.exe'):
                 update_info['download_url'] = asset['browser_download_url']
                 update_info['file_size'] = asset['size']
                 break

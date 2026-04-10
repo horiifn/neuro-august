@@ -15,6 +15,7 @@ echo.
 echo Building executable...
 pyinstaller --onefile ^
     --windowed ^
+    --icon=icon.ico ^
     --add-data "web;web" ^
     --add-data "version.json;." ^
     --hidden-import=eel ^

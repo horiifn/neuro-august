@@ -1366,3 +1366,29 @@ header h1 {
     background: #27272a;
     color: #e4e4e7;
 }
+
+/* Ссылка регистрации */
+.register-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    background: #16a34a;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: all 0.2s;
+    margin-top: 12px;
+}
+
+.register-link:hover {
+    background: #15803d;
+    transform: translateY(-1px);
+}
+
+.register-link svg {
+    width: 16px;
+    height: 16px;
+}
