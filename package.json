@@ -1,0 +1,12 @@
+{
+  "name": "gemini-image-generator",
+  "version": "1.0.0",
+  "description": "Генератор изображений с помощью Google Gemini",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["gemini", "image", "generator"],
+  "author": "",
+  "license": "MIT"
+}
